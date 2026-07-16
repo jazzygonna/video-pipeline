@@ -1,0 +1,13 @@
+.env
+dist/
+node_modules/
+output/
+
+# Personal asset banks stay on D:, not on GitHub — photos, articles, and
+# audio tracks aren't code. Directory structure is preserved via .gitkeep.
+content/*
+!content/.gitkeep
+reference-photos/*
+!reference-photos/.gitkeep
+music/*
+!music/.gitkeep
